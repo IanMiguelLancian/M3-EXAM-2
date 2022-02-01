@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'gothamr-medium';
+  src: url(fonts/GothamRoundedMedium_21022.ttf);
+}
+
+body {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+  }
+  .sidebar1 {
+    width: 46.5vh;
+    height: 13vh;
+    text-align: center;
+    color:aliceblue;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    padding: 8px 0;
+    margin-top: -745px;
+    font-family: 'gothamr-medium';
+    font-size: 17px;
+  }
+
+  .sidebar2 {
+    object-fit: contain;
+    width: 46.5vh;
+    height: 83.8vh;
+    text-align: center;
+    color: black;
+    word-wrap: break-word;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    padding: 8px 0;
+    margin-top: 5px;
+  }
+
+
+  .hearted-pets{
+    width: 100%;
+ }
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .hearted-pets li{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    height: 100px;
+  }
+
+  .hearted-pet-image{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 80px;
+    width:80px;
+    object-fit: cover;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .hearted-pet-name{
+    display: inline;
+    font-size: 30px;
+    font-family: 'gothamr-medium';
+    color: white;
+  }
+
+  .body{
+    object-fit: contain;
+    width: 163.5vh;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-left: 340px;
+  }
+
+  .pet-image{
+    margin: 35px 50vh;
+    width: 360px;
+    height: 490px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+  }
+
+  .heart-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    width: 120px;
+    height: 120px;
+    margin-left: 400px;
+    background: white;
+    border: none;
+    box-shadow: -1px 0px 18px 0px gray;
+    border-radius: 50%;
+  }
+
+  .heart-button:hover{
+    background: black;
+    color: white;
+  }
+
+  .x-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+    background: white;
+    border: none;
+    box-shadow: -1px 0px 18px 0px gray;
+    border-radius: 50%;
+  }
+
+  .x-button:hover{
+    background: black;
+    color: white;
+  }
+
+  .buttons-row{
+    display: flex;
+  }
+
+  

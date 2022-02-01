@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: courier;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+p{
+    font-family: courier;
+}
+
+.blue{
+    background: #018f97;
+}
+
+.lightblue{
+    background:#6ec0b7;
+}
+
+.lightyellow{
+    background: #ede1b9;
+}
+
+.namesection_area{
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+
+.namesection_content{
+    text-align: center;
+    font-size: 170%;
+    color: white;
+}
+
+.informationsection_image{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.informationsection_content{
+    position: relative;
+    margin-left:700px;
+    margin-right:80px;
+    bottom: 330px;
+    text-align: justify;
+    font-size: 120%;
+}
+
+
+.goalsection_content{
+    position: relative;
+    left: 80px;
+    bottom: 200px;
+    text-align: justify;
+    font-size: 120%;
+}
+
+
+.goalsection_image{
+    position: relative;
+    top: 100px;
+    left: 900px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+}

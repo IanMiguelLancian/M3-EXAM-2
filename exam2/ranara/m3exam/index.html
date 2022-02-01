@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lyrical</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class ="title_sidebar">
+        <h2>Lyrical.</h2>
+        <p>Sing along to your favorite music</p>
+    </div>
+
+    <div id ="songs_sidebar">
+        <ul class = "ul_sidebar">
+            <li onclick="dayglow()" id = "dayglow">
+                 <img src="images/dayglow.jpg" class = "song_image">
+                 <p id = "dayglow_lyrics" class = "song_label">Dayglow<br>Can I Call You Tonight?</p>
+            </li>
+            <li onclick="kal_world()" id = "kal_world">
+                <img src="images/francism.jpg" class = "song_image">
+                <p id = "kal_world_lyrics" class = "song_label">Francis M.<br>Kaleidoscope World</p>
+           </li>
+           <li onclick="paramore()" id = "paramore">
+            <img src="images/paramore.jpg" class = "song_image">
+            <p id = "paramore_lyrics" class = "song_label">Paramore<br>That's What You Get</p>
+           </li>
+           <li onclick="rivermaya()" id = "rivermaya">
+            <img src="images/rivermaya.jpg" class = "song_image">
+            <p id = "rivermaya_lyrics" class = "song_label">Rivermaya<br>214</p>
+           </li>
+           <li onclick="beachfossils()" id = "beachfossils">
+            <img src="images/beachfossils.png" class = "song_image">
+            <p id = "beachfossils_lyrics" class = "song_label">Beach Fossils<br>Down the Line</p>
+           </li>
+       </ul>
+    </div>
+    
+    <div id ="lyrics_background">
+        <p id = "lyrics">Please select a song</p>
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>

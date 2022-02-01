@@ -1,0 +1,249 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: courier;
+}
+
+
+.openingsection_background{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(tokyo_2.jpg);
+    background-size: cover;
+}
+
+
+.openingsection_title_area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openingsection_title_content{
+    text-align: center;
+    font-size: 170%;
+    color: white;
+}
+
+/*IMPERIAL TOKYO */
+
+.imperialtokyo_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imperialtokyo.jpg);
+    background-size: cover;
+}
+
+
+.imperialtokyo_desc{
+    position: relative;
+    bottom: 395px;
+    margin-right: 50px;
+    margin-left: 1000px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+.imperialtokyo_box{
+    position: relative;
+    height: 550px;
+    width: 515px;
+    opacity: 0.7;
+    background: rgb(40, 113, 182);
+    top: 120px;
+    left: 975px;
+}
+
+
+/*JIYUGAOKA */
+
+.jiyugaoka_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(jiyugaoka.jpg);
+    background-size: cover;
+}
+
+.jiyugaoka_desc{
+    position: relative;
+    bottom: 425px;
+    margin-right: 1000px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.jiyugaoka_box{
+    position: relative;
+    height: 550px;
+    width: 530px;
+    opacity: 0.7;
+    background: rgb(197, 84, 39);
+    top: 110px;
+    left: 20px;
+}
+
+
+/*AKIHABARA*/
+.akihabara_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(akihabara.jpg);
+    background-size: cover;
+}
+
+
+.akihabara_desc{
+    position: relative;
+    bottom: 185px;
+    margin-right: 50px;
+    margin-left: 1000px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+.akihabara_box{
+    position: relative;
+    height: 380px;
+    width: 515px;
+    opacity: 0.7;
+    background: rgb(26, 128, 72);
+    top: 180px;
+    left: 980px;
+}
+
+
+/*MEIJI_JINGU*/
+
+.meiji_jingu_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(meiji_jingu.jpg);
+    background-size: cover;
+}
+
+.meiji_jingu_desc{
+    position: relative;
+    bottom: 195px;
+    margin-right: 1000px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.meiji_jingu_box{
+    position: relative;
+    height: 390px;
+    width: 530px;
+    opacity: 0.7;
+    background: rgb(153, 151, 24);
+    top: 170px;
+    left: 20px;
+}
+
+
+/*UENO*/
+
+.ueno_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(ueno.jpg);
+    background-size: cover;
+}
+
+
+.ueno_desc{
+    position: relative;
+    bottom: 310px;
+    margin-right: 50px;
+    margin-left: 1000px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+.ueno_box{
+    position: relative;
+    height: 490px;
+    width: 515px;
+    opacity: 0.7;
+    background: #017e85;
+    top: 160px;
+    left: 980px;
+}
+
+
+/*TOKYO MUSEUM*/
+.tokyomuseum_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(tokyomuseum.jpg);
+    background-size: cover;
+}
+
+
+.tokyomuseum_desc{
+    position: relative;
+    bottom: 285px;
+    margin-right: 1000px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.tokyomuseum_box{
+    position: relative;
+    height: 470px;
+    width: 530px;
+    opacity: 0.7;
+    background: rgb(197, 84, 39);
+    top: 170px;
+    left: 20px;
+}
+
+/*TOKYOTOWER */
+.tokyotower_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(tokyotower_2.jpg);
+    background-size: cover;
+}
+
+
+.tokyotower_desc{
+    position: relative;
+    bottom: 255px;
+    margin-right: 40px;
+    margin-left: 1000px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.tokyotower_box{
+    position: relative;
+    height: 430px;
+    width: 510px;
+    opacity: 0.7;
+    background: rgb(165, 31, 60);
+    top: 170px;
+    left: 985px;
+}

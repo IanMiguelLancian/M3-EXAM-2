@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'mont-regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'mont-bold';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'mont-regular';
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(18, 236, 11);
+}
+
+.ranara{
+    color: yellow;
+}
+
+.container{
+    height: 100vh;
+}
+
+.name_section{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    background-color: #df8653;
+    border: 2px solid black;
+}
+
+
+.folder_container1{
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    background-color: #df8653;
+}
+
+.folder_container2{
+    height: 46vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #df8653;
+}
+
+.folder_icon_container{
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 40px;
+}
+
+.folder_icon_container p{
+    font-size: 18px;
+}
+
+.folder_icon{
+    width: 140px;
+    height: 140px;
+    margin-top: 25px;
+}
+
+#m1quiz2{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m1quiz2:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m1exam{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m1exam:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m2quiz1{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m2quiz1:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m2quiz2{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m2quiz2:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m2exam{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m2exam:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m3quiz2{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m3quiz2:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+#m3exam{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#m3exam:hover{
+    background-color: rgb(202, 201, 201);
+}
+
+
+
