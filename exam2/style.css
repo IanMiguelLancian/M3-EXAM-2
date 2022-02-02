@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'mont-regular';
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(fonts/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: 'mont-bold';
-    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(fonts/Montserrat-Bold.ttf);
 }
 
 *{
